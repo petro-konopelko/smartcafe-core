@@ -1,0 +1,64 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/launch.json
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+nuget.config.user
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+coverage*/
+*.coveragexml
+
+# Publish profiles
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# ASP.NET
+AppData/
+
+# User secrets
+appsettings.Local.json
+secrets.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Azure
+*.publishsettings
+azure.parameters*.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local settings
+.claude/settings.local.json
