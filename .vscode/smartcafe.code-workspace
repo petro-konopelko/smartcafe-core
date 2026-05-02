@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../smartcafe-core"
+		},
+		{
+			"path": "../../smartcafe-admin-client"
+		},
+		{
+			"path": "../../smartcafe-docs"
+		},
+		{
+			"path": "../../smartcafe-infrastructure"
+		},
+		{
+			"path": "../../smartcafe-menu"
+		}
+	],
+	"settings": {}
+}

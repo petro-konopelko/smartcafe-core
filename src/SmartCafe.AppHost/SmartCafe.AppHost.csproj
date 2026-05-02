@@ -1,0 +1,19 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.2">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>97167a31-3f56-4cd0-b398-f27c4a0d7559</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+    <PackageReference Include="Aspire.Hosting.Azure.Storage" />
+    <PackageReference Include="Aspire.Hosting.JavaScript" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../../smartcafe-menu/src/SmartCafe.Menu.API/SmartCafe.Menu.API.csproj" />
+    <ProjectReference Include="../../../smartcafe-menu/src/SmartCafe.Menu.Migrator/SmartCafe.Menu.Migrator.csproj" />
+  </ItemGroup>
+
+</Project>
